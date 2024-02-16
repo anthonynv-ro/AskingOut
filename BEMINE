@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+class Girlfriend {
+    public static void main(String[] args) {
+        Scanner scnr = new Scanner(System.in);
+        
+        while (true) {
+            System.out.println("x-----------------------------x");
+            System.out.println("WILL YOU BE MY GIRLFRIEND?? <333\n");
+            String answer = scnr.nextLine();
+            if (answer.equals("yes")) {
+                System.out.println("WOOP LET'S GOOOO!!!\n");
+            }
+            else if (answer.equals("no")) {
+                System.out.println("that is NOT allowed :D\n");
+            }
+            else {
+                System.out.println("mmmm try again\n");
+            }
+        }
+    }
+
+}
